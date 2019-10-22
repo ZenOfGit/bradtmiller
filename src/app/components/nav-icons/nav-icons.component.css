@@ -1,0 +1,109 @@
+/* body {
+  background-color: #303030;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  color: #ADFF2F;
+  margin: 2em;
+} */
+
+.icon {
+	display: inline-block;
+	color: #444444;
+  width: 1em;
+	height: 1em;
+  fill: currentColor;
+  margin: 25px;
+}
+
+
+
+.icon-education {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: red;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-work {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: red;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-linkedin {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: red;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-hobbies {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: red;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-github {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: red;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-twitchsearch {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: red;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-userapp {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: red;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}

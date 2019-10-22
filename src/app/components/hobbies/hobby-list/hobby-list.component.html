@@ -1,0 +1,15 @@
+<mat-accordion multi='false' *ngIf='hobbies.length > 0'>
+  <mat-expansion-panel *ngFor='let hobby of hobbies'>
+    <mat-expansion-panel-header>
+      {{ hobby.name }} - {{ hobby.level }}
+    </mat-expansion-panel-header>
+    <p>Description:</p>
+    {{ hobby.description }}
+    <!-- BEGIN ADMIN VIEW -->
+    <mat-action-row>
+      <button mat-button color="primary">EDIT</button>
+      <button mat-button color="warn" (click)='onDelete(hobby.id)'>DELETE</button>
+    </mat-action-row>
+    <!-- END ADMIN VIEW -->
+  </mat-expansion-panel>
+</mat-accordion>

@@ -1,0 +1,15 @@
+<mat-accordion multi='false' *ngIf='employers.length > 0'>
+  <mat-expansion-panel *ngFor='let employer of employers'>
+    <mat-expansion-panel-header>
+      {{ employer.name }} - {{ employer.city }}, {{ employer.stateAbr }}
+    </mat-expansion-panel-header>
+    <p>Title: {{ employer.title }}</p>
+    {{ employer.description }}
+    <!-- BEGIN ADMIN VIEW -->
+    <mat-action-row>
+      <button mat-button color="primary">EDIT</button>
+      <button mat-button color="warn" (click)='onDelete(employer.id)'>DELETE</button>
+    </mat-action-row>
+    <!-- END ADMIN VIEW -->
+  </mat-expansion-panel>
+</mat-accordion>

@@ -1,0 +1,40 @@
+<mat-card>
+  <form (submit)="onAddSchool(schoolForm)" #schoolForm="ngForm">
+    <div class="container">
+
+      <div class="row">
+        <mat-form-field>
+          <input matInput ngModel type="text" name="name" placeholder="School Name" #name="ngModel" minlength="3"
+            required>
+          <mat-error *ngIf="name.invalid">Please enter a school name.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <mat-form-field>
+          <input matInput ngModel type="text" name="state" placeholder="School State" #state="ngModel" minlength="2"
+            required>
+          <mat-error *ngIf="state.invalid">Please enter a school state.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <mat-form-field>
+          <input matInput ngModel type="text" name="degree" placeholder="School Degree" #degree="ngModel" minlength="3"
+            required>
+          <mat-error *ngIf="degree.invalid">Please enter a school degree.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <mat-form-field>
+          <textarea matInput ngModel rows="6" name="description" placeholder="School Description" #description="ngModel"
+            required></textarea>
+          <mat-error *ngIf="description.invalid">Please enter the school description.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <button mat-raised-button color="primary" type="submit">Save School</button>
+    </div>
+  </form>
+</mat-card>

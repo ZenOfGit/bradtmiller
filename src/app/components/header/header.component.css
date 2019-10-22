@@ -1,0 +1,17 @@
+
+.mat-toolbar {
+  background-color: #303030;
+  font-family: verdana, sans-serif;
+  color: #ADFF2F;
+  border-style: solid;
+  border-color: red;
+  border-image:
+  linear-gradient(
+    to right,
+    red,
+    #303030
+  ) 0 0   100%;
+  border-image-width: 0px 0px 3px 0px;
+  margin: 2px;
+}
+

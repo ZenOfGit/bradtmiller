@@ -1,0 +1,15 @@
+<mat-accordion multi='false' *ngIf='schools.length > 0'>
+  <mat-expansion-panel *ngFor='let school of schools'>
+    <mat-expansion-panel-header>
+      {{ school.name }} - {{ school.state }}
+    </mat-expansion-panel-header>
+    <p>Degree: {{ school.degree }}</p>
+    {{ school.description }}
+    <!-- BEGIN ADMIN VIEW -->
+    <mat-action-row>
+      <button mat-button color="primary">EDIT</button>
+      <button mat-button color="warn" (click)='onDelete(school.id)'>DELETE</button>
+    </mat-action-row>
+    <!-- END ADMIN VIEW -->
+  </mat-expansion-panel>
+</mat-accordion>

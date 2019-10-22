@@ -1,0 +1,41 @@
+<mat-card>
+    <form (submit)="onAddHobby(hobbyForm)" #hobbyForm="ngForm">
+      <div class="container">
+
+        <div class="row">
+          <mat-form-field>
+            <input matInput ngModel type="text" name="name" placeholder="Hobby Name" #name="ngModel" minlength="3"
+              required>
+            <mat-error *ngIf="name.invalid">Please enter a hobby name.</mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="row">
+          <mat-form-field>
+            <input matInput ngModel type="text" name="sinceAge" placeholder="Since Age" #sinceAge="ngModel" minlength="2"
+              required>
+            <mat-error *ngIf="sinceAge.invalid">Please enter your age when this hobby began.</mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="row">
+          <mat-form-field>
+            <input matInput ngModel type="text" name="level" placeholder="Hobby Skill Level" #level="ngModel" minlength="3"
+              required>
+            <mat-error *ngIf="level.invalid">Please enter a hobby level.</mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="row">
+          <mat-form-field>
+            <textarea matInput ngModel rows="6" name="description" placeholder="Hobby Description"
+              #description="ngModel" required></textarea>
+            <mat-error *ngIf="description.invalid">Please enter a description.</mat-error>
+          </mat-form-field>
+        </div>
+
+        <button mat-raised-button color="primary" type="submit">Save Hobby</button>
+        </div>
+
+    </form>
+  </mat-card>

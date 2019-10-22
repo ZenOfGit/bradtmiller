@@ -1,0 +1,28 @@
+body {
+  background-color: #303030;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  color: #ADFF2F;
+  margin: 2em;
+}
+
+.mat-expansion-panel {
+  color: #ADFF2F;
+  margin: 2em;
+  border-bottom-style: solid;
+  border-color: red;
+  box-shadow: none;
+  border-image:
+  linear-gradient(
+    to right,
+    red,
+    #303030
+  ) 0 0   100%;
+  border-image-width: 0px 0px 3px 0px;
+  margin: 2em;
+}
+
+
+.mat-expansion-panel-header {
+  background-color: #303030;
+ }

@@ -1,0 +1,48 @@
+<mat-card>
+  <form (submit)="onAddEmployer(employerForm)" #employerForm="ngForm">
+    <div class="container">
+
+      <div class="row">
+        <mat-form-field>
+          <input matInput ngModel type="text" name="name" placeholder="Employer Name" #name="ngModel" minlength="3"
+            required>
+          <mat-error *ngIf="name.invalid">Please enter an employer name.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <mat-form-field>
+          <input matInput ngModel type="text" name="city" placeholder="Employer City" #city="ngModel" minlength="2"
+            required>
+          <mat-error *ngIf="city.invalid">Please enter an employer city.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <mat-form-field>
+          <input matInput ngModel type="text" name="stateAbr" placeholder="Employer State Abr" #stateAbr="ngModel"
+            minlength="2" required>
+          <mat-error *ngIf="stateAbr.invalid">Please enter an employer state abbreviation.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <mat-form-field>
+          <input matInput ngModel type="text" name="title" placeholder="Job Title" #title="ngModel" minlength="3"
+            required>
+          <mat-error *ngIf="title.invalid">Please enter a job title.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <mat-form-field>
+          <textarea matInput ngModel rows="6" name="description" placeholder="Employer/Job Description"
+            #description="ngModel" required></textarea>
+          <mat-error *ngIf="description.invalid">Please enter a description.</mat-error>
+        </mat-form-field>
+      </div>
+
+      <button mat-raised-button color="primary" type="submit">Save Employer</button>
+      </div>
+  </form>
+</mat-card>
