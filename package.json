@@ -24,7 +24,7 @@
     "@angular/router": "~8.2.0",
     "angular-material-expansion-panel": "^0.7.2",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mongoose": "^5.7.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
