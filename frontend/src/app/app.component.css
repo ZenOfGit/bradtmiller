@@ -1,0 +1,17 @@
+
+.view {
+  height: 115vh !important;
+}
+
+h1 {
+  letter-spacing: 6px;
+}
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 1px solid rgb(0, 0, 0);
+  width: 250px;
+}
+

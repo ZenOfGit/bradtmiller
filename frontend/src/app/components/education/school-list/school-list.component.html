@@ -1,0 +1,10 @@
+<div class="row">
+  <div *ngFor="let school of schools"
+  class="col-sm-4 p-3"
+  [class.selected]="school === selectedSchool"
+  (click)="onSelectSchool(school)">
+    <app-school-card [school]="school"></app-school-card>
+  </div>
+</div>
+<app-school-detail [school]="selectedSchool"></app-school-detail>
+

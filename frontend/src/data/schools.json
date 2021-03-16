@@ -1,0 +1,38 @@
+[
+  {
+    "id": "S1",
+    "name": "Miami University",
+    "description": "Known as the \"Public Ivy\" in Oxford, OH with a beautilul campus and legendary education.",
+    "city": "Oxford",
+    "state": "OH",
+    "major": "Mass Communication",
+    "degree1": "Bachelor of Arts",
+    "details": "Dean's List, Kappa Alpha Order, Student Government",
+    "url": "https://www.miami.miamioh.edu/",
+    "image": "mu.png"
+  },
+  {
+    "id": "S2",
+    "name": "Colorado State",
+    "description": "Located in the foothills of the Rocky Mountains with countless opportunities for student life outside of the excellent potential for a great education.",
+    "city": "Fort Collins",
+    "state": "CO",
+    "major": "Computer Science",
+    "degree1": "Continuing Education",
+    "details": "Hardware Design, Calculus, Descrete Mathematics, C++, Java, Statistics",
+    "url": "https://www.colostate.edu/",
+    "image": "csu.png"
+  },
+  {
+    "id": "S3",
+    "name": "Gateway Technical College",
+    "description": "With three campuses in Wisconsin offering a great opportunity to further one's education and value as an employee.",
+    "city": "Kenosha",
+    "state": "WI",
+    "major": "Programmer Analyst, Network Specialist",
+    "degree1": "Associate of Science",
+    "details": "Top student every semester with straight A's and an additional Advanced Security Certificate",
+    "url": "https://www.gtc.edu/",
+    "image": "gtc.png"
+  }
+]

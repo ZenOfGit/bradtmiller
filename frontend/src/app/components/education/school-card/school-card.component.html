@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="school-card-img-wrapper">
+    <img class="school-card-img-top" src="assets/images/{{school.image}}">
+    <ul class="list-inline text-center member-icons animate">
+      <li class="list-inline-item">
+<button class="btn btn-primary" (click)="onSelectSchool(school)" data-toggle="tooltip" title="Buttons available next version"><i class="fas fa-info-circle"></i></button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary" data-toggle="tooltip" title="Buttons available next version"><i class="far fa-window-maximize"></i></button>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body p-1">
+      <p>School: {{school.name}}</p>
+      <p>Major: {{school.major}}</p>
+  </div>
+</div>

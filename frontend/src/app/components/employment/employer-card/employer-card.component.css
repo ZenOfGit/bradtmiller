@@ -1,0 +1,53 @@
+.animate {
+  transition: all 0.3s ease-in-out;
+}
+
+.empImg {
+  width: 225px;
+/*   object-fit: cover; */
+}
+
+.card:hover img{
+  opacity: .5;
+  transform: scale(1.2,1.2);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card img{
+  transform: scale(1, 1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+}
+
+.emp-card-img-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.emp-card-img-wrapper:hover .member-icons {
+  bottom: 0;
+  opacity: 1;
+}
+
+.member-icons {
+  position: absolute;
+/*   bottom: 0; */
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  bottom: -125%;
+  opacity: 0;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+  font-family: verdana, sans-serif;
+}

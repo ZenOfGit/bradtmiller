@@ -1,0 +1,57 @@
+[
+  {
+    "id": "E1",
+    "name": "Lakes Technology Specialists",
+    "description": "Full service IT consultant agency offering software and hardware service including network installation and setup.",
+    "city": "Delavan",
+    "state": "WI",
+    "title": "Technology Engineer",
+    "responsibilities": "Software and hardware installation and trouleshooting, network wiring and wi-fi with setup, backup and restoration, training and full service IT in person or remote.",
+    "compensation": "$20/hr",
+    "image": "lts.png"
+  },
+  {
+    "id": "E2",
+    "name": "Collaborative Consulting",
+    "description":"Complete software consultant agency offering web and desktop applications, buisness intelligence, and database development.",
+    "city": "Wausau",
+    "state": "WI",
+    "title": "Application Develper",
+    "responsibilities": "Web app development with Node and AngularJS, SSRS Reports via writing SQL Server stored procedures, C# .Net and Java applications.",
+    "compensation": "$36,000/yr",
+    "image": "cdsc.png"
+  },
+  {
+    "id": "E3",
+    "name": "Healthgrades",
+    "description": "Doctor and Hodpital rating website with a public side and hospital paid analytics side.",
+    "city": "Middleton",
+    "state": "WI",
+    "title": "Technical Support Engineer",
+    "responsibilities": "RE-worked tech support team with special attention to PHI security and HIPPA laws. Created MEAN app to streamline user approval process.",
+    "compensation": "$56,000/yr",
+    "image": "hg.png"
+  },
+  {
+    "id": "E4",
+    "name": "Ratelinx",
+    "description": "Custom integration of C# .Net shipping rate engine to secure teh best rates regarding all shipping lanes and a desktop app to use the engine and create shipping lables on site.",
+    "city": "Madison",
+    "state": "WI",
+    "title": "Software Engineer",
+    "responsibilities": "Upgrades, bug fixes, customer contact to determine viability of enhancements or fixes, as well as time estimates and spec adherence.",
+    "compensation": "$65,000/yr",
+    "image": "rlx.png"
+  },
+  {
+    "id": "E5",
+    "name": "TASC",
+    "description": "Federal Government contract for website which any OPM employee can use to donate a portion of their paycheck, or singular ACH or credit card payment, to their desired charity.",
+    "city": "Madison",
+    "state": "WI",
+    "title": "Application Develper",
+    "responsibilities": "Full stack Angular (v4+) and Node with SQL Server development.  Lead for .Net app to load data for the app.",
+    "compensation": "$86,000/yr",
+    "image": "tasc.png"
+  }
+]

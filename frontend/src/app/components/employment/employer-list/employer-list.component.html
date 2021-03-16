@@ -1,0 +1,8 @@
+<div class="row">
+  <div *ngFor="let employer of employers" class="col-sm-4 p-3" [class.selected]="employer === selectedEmployer"
+    (click)="onSelectEmployer(employer)">
+    <app-employer-card [employer]="employer"></app-employer-card>
+  </div>
+</div>
+
+<app-employer-detail [employer]="selectedEmployer"></app-employer-detail>

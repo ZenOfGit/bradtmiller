@@ -1,0 +1,8 @@
+<div *ngIf="school">
+  <h3>{{school.name}}</h3>
+  <h3>{{school.city}}, {{school.state}}</h3>
+  <h5 ng-if='school.degree !== undefined'>{{school.degree1}}</h5>
+  <h5 ng-if='school.degree !== undefined'>{{school.degree2}}</h5>
+  <h5>{{school.description}}</h5>
+  <h5>{{school.details}}</h5>
+</div>

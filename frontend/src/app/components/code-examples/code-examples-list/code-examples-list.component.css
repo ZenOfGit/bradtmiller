@@ -1,0 +1,68 @@
+
+.icon {
+	display: inline-block;
+  width: 1em;
+	height: 1em;
+  fill: currentColor;
+  margin: 25px;
+}
+
+.icon-git {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: #AAB7B8;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-twitchsearch {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: #AAB7B8;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-userapp {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: #AAB7B8;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+.icon-quiz {
+  /* Using currentColor above lets
+  us use `color` for changing the color
+  of our icons: */
+  color: #AAB7B8;
+
+  /* The width and height of the SVG
+  was previously set to 1em.
+  This allows us to use `font-size`
+  to change the size of our icon: */
+  font-size: 48px;
+}
+
+/* .icon-starwars {
+
+  color: #AAB7B8;
+
+
+  font-size: 48px;
+} */
